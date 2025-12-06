@@ -4,6 +4,8 @@ PORT ?= /dev/ttyACM0
 MAIN_FILE ?= main.cpp
 BUILD_DIR ?= bin
 BUILD_TEMPLATE = $(BUILD_DIR)/$(MAIN_FILE)
+
+
 .PHONY: all build upload docs clean
 
 build: src/$(MAIN_FILE)
