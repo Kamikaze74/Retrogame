@@ -1,0 +1,12 @@
+#define B 0x1
+#define Y 0x2
+#define Select 0x4
+#define Start 0x8
+#define Up 0x10
+#define Down 0x20
+#define Left 0x40
+#define Right 0x80
+#define A 0x100
+#define X 0x200
+#define ShoulderL 0x400
+#define ShoulderR 0x800
